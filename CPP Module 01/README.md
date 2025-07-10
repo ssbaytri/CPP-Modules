@@ -4,18 +4,18 @@ This module introduces fundamental C++ concepts including memory allocation, poi
 
 ## 📋 Table of Contents
 
-- [General Information](#general-information)
-- [Compilation](#compilation)
-- [Exercises](#exercises)
-  - [Exercise 00: BraiiiiiiinnnzzzZ](./ex00/)
-  - [Exercise 01: Moar brainz!](./ex01/)
-  - [Exercise 02: HI THIS IS BRAIN](./ex02/)
-  - [Exercise 03: Unnecessary violence](./ex03/)
-  - [Exercise 04: Sed is for losers](./ex04/)
-  - [Exercise 05: Harl 2.0](./ex05/)
-  - [Exercise 06: Harl filter](./ex06/)
-- [Key Learning Objectives](#key-learning-objectives)
-- [Important Notes](#important-notes)
+- [General Information](#-general-information)
+- [Compilation](#-compilation)
+- [Exercises](#-exercises)
+  - [Exercise 00: BraiiiiiiinnnzzzZ](#exercise-00-braiiiiiiinnnzzzz)
+  - [Exercise 01: Moar brainz!](#exercise-01-moar-brainz)
+  - [Exercise 02: HI THIS IS BRAIN](#exercise-02-hi-this-is-brain)
+  - [Exercise 03: Unnecessary violence](#exercise-03-unnecessary-violence)
+  - [Exercise 04: Sed is for losers](#exercise-04-sed-is-for-losers)
+  - [Exercise 05: Harl 2.0](#exercise-05-harl-20)
+  - [Exercise 06: Harl filter](#exercise-06-harl-filter)
+- [Key Learning Objectives](#-key-learning-objectives)
+- [Important Notes](#-important-notes)
 
 ## 🎯 General Information
 
