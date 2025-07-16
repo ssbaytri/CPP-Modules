@@ -8,7 +8,7 @@ Fixed triangleArea(Point const& a, Point const& b, Point const&c)
 					b.getX() * (c.getY() - a.getY()) +
 					c.getX() * (a.getY() - b.getY()));
 	
-	return Fixed(fabs(area.toFloat() / 2.0f));
+	return Fixed(static_cast<float>(fabs(area.toFloat() / 2.0f)));
 }
 
 bool bsp(Point const a, Point const b, Point const c, Point const point)
