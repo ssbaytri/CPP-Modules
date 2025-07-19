@@ -4,12 +4,12 @@ This repository contains the implementation of C++ Module 02 exercises from the 
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Learning Objectives](#learning-objectives)
-- [Exercises](#exercises)
-- [Compilation](#compilation)
-- [Key Concepts](#key-concepts)
-- [Usage Examples](#usage-examples)
+- [Overview](#-overview)
+- [Learning Objectives](#-learning-objectives)
+- [Exercises](#-exercises)
+- [Compilation](#-compilation)
+- [Key Concepts](#-key-concepts)
+- [Usage Examples](#-usage-examples)
 
 ## 🎯 Overview
 
