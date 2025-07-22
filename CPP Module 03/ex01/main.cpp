@@ -7,5 +7,9 @@ int main() {
     ScavTrap ahya("james");
     ahya.attack("hello");
     ahya.guardGate();
+
+    // ClapTrap* bot = new ScavTrap("shadow");
+    // delete bot;
+
     return 0;
 }
