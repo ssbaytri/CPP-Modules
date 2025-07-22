@@ -15,5 +15,8 @@ int main() {
     assigned = d;
     assigned.whoAmI();
 
+    // ScavTrap* another = new DiamondTrap("james");
+    // delete another;
+
     return 0;
 }
