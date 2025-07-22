@@ -1,3 +1,4 @@
+#include "ClapTrap.hpp"
 #include "FragTrap.hpp"
 
 int main() {
@@ -15,6 +16,9 @@ int main() {
     frodo.attack("james");
     frodo.beRepaired(20);
     frodo.highFivesGuys();
+
+    // ClapTrap* test = new FragTrap("james");
+    // delete test;
 
     return 0;
 }
