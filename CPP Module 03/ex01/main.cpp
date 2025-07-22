@@ -8,8 +8,8 @@ int main() {
     ahya.attack("hello");
     ahya.guardGate();
 
-    // ClapTrap* bot = new ScavTrap("shadow");
-    // delete bot;
+    // ClapTrap* idk = new ScavTrap("james");
+    // delete idk;
 
     return 0;
 }
