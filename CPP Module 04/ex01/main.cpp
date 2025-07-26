@@ -1,9 +1,16 @@
 #include "Animal.hpp"
 #include "Cat.hpp"
 #include "Dog.hpp"
+#include <cstdlib>
 #include <iostream>
 
+void ss()
+{
+  system("leaks animals");
+}
+
 int main() {
+  atexit(ss);
   const Animal *j = new Dog();
   const Animal *i = new Cat();
 
@@ -34,6 +41,8 @@ int main() {
 
   Brain* brain = new Brain();
   brain->printAllIdeas();
+
+  delete brain;
 
   return 0;
 }
