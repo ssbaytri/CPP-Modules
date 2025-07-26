@@ -5,12 +5,21 @@
 #include "IMateriaSource.hpp"
 #include "Ice.hpp"
 #include "MateriaSource.hpp"
+#include <cstdlib>
+
+void ll()
+{
+	system("leaks rpg");
+}
 
 int main(void)
 {
+	atexit(ll);
+	AMateria* a = new Ice();
+	AMateria* b = new Cure();
 	IMateriaSource* src = new MateriaSource();
-	src->learnMateria(new Ice() );
-	src->learnMateria( new Cure() );
+	src->learnMateria(a);
+	src->learnMateria(b);
 
 	ICharacter* me = new Character("me");
 
@@ -24,6 +33,9 @@ int main(void)
 
 	me->use(0, *bob);
 	me->use(1, *bob);
+
+	delete a;
+	delete b;
 
 	delete bob;
 	delete me;
