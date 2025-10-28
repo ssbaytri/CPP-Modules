@@ -10,6 +10,11 @@ const char *AForm::GradeTooLowException::what() const throw()
 	return "Grade Too Low";
 }
 
+const char *AForm::FormNotSignedException::what() const throw()
+{
+    return "Form Not Signed";
+}
+
 AForm::AForm() : _name("Default Form"), _signed(false), _gradeToSign(150), _gradeToExec(150), _target("default")
 {
     std::cout << "Form Default Constructor" << std::endl;
