@@ -1,4 +1,5 @@
 #include "ScalarConverter.hpp"
+#include <limits>
 
 bool ScalarConverter::isCharLiteral(const std::string& str)
 {
@@ -34,7 +35,7 @@ bool ScalarConverter::isFloatLiteral(const std::string& str)
 	if (str == "nanf" || str == "+inff" || str == "-inff" || str == "inff")
         return true;
 
-	if (str.empty() || str.back() != 'f')
+	if (str.empty() || str[str.length() - 1] != 'f')
 		return false;
 
 	std::string core = str.substr(0, str.length() - 1);
@@ -232,4 +233,64 @@ void ScalarConverter::convert(const std::string &literal)
 		printFromChar(c);
 		return ;
 	}
+
+	if (isIntLiteral(literal))
+	{
+		char *end;
+		long value = std::strtol(literal.c_str(), &end, 10);
+		if (value > std::numeric_limits<int>::max()
+			|| value < std::numeric_limits<int>::min())
+		{
+			std::cout << "char: impossible" << std::endl;
+            std::cout << "int: impossible" << std::endl;
+            std::cout << "float: impossible" << std::endl;
+            std::cout << "double: impossible" << std::endl;
+            return;
+		}
+		int i = static_cast<int>(value);
+		printFromInt(i);
+		return ;	
+	}
+
+	if (isFloatLiteral(literal))
+	{
+		float f;
+        
+        if (literal == "nanf")
+            f = std::numeric_limits<float>::quiet_NaN();
+        else if (literal == "+inff" || literal == "inff")
+            f = std::numeric_limits<float>::infinity();
+        else if (literal == "-inff")
+            f = -std::numeric_limits<float>::infinity();
+        else
+        {
+            char *end;
+            f = std::strtof(literal.c_str(), &end);
+        }
+
+		printFromFloat(f);
+		return ;
+	}
+
+	if (isDoubleLiteral(literal))
+    {
+        double d;
+        
+        if (literal == "nan")
+            d = std::numeric_limits<double>::quiet_NaN();
+        else if (literal == "+inf" || literal == "inf")
+            d = std::numeric_limits<double>::infinity();
+        else if (literal == "-inf")
+            d = -std::numeric_limits<double>::infinity();
+        else
+        {
+            char *end;
+            d = std::strtod(literal.c_str(), &end);
+        }
+        
+        printFromDouble(d);
+        return;
+    }
+
+	std::cout << "Error: Invalid literal format" << std::endl;
 }
