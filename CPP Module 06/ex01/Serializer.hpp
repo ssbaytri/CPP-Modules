@@ -1,0 +1,25 @@
+#pragma once
+
+#include <stdint.h>  // for uintptr_t (C++98 compatible)
+#include <string>
+#include <iostream>
+
+struct Data
+{
+    int id;
+    std::string name;
+    float value;
+};
+
+class Serializer
+{
+private:
+    Serializer();
+    Serializer(const Serializer& other);
+    Serializer& operator=(const Serializer& other);
+    ~Serializer();
+
+public:
+    static uintptr_t serialize(Data* ptr);
+    static Data* deserialize(uintptr_t raw);
+};
