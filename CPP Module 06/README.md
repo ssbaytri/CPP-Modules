@@ -780,4 +780,4 @@ And prepares for:
 
 ---
 
-*This module demonstrates the power and flexibility of C++'s casting system. Understanding when and how to use each cast type is essential for writing safe, maintainable C++ code. The exercises progress from string parsing and type conversion, through low-level pointer manipulation, to runtime type identification—core skills for any C++ developer.*
+*This module demonstrates the power and flexibility of C++'s casting system. Understanding when and how to use each cast type is essential for writing safe, maintainable C++ code. The exercises progress from string parsing and type conversion, through low-level pointer manipulation, to runtime type identification—core skills for any C++ developer*
