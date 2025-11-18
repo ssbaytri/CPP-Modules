@@ -1,8 +1,6 @@
 #pragma once
 #include <vector>
 #include <exception>
-#include <algorithm>
-#include <limits>
 
 class Span
 {
@@ -32,4 +30,18 @@ class Span
 				++begin;
 			}
 		}
-}
+
+		class SpanFullException : public std::exception {
+			public:
+				virtual const char* what() const throw() {
+					return "Span is full, cannot add more numbers";
+				}
+			};
+
+			class NoSpanException : public std::exception {
+			public:
+				virtual const char* what() const throw() {
+					return "Not enough numbers to calculate span";
+				}
+			};
+};
