@@ -1,6 +1,7 @@
 #include "BitcoinExchange.hpp"
 #include <fstream>
 #include <iostream>
+#include <cstdlib>
 
 BitcoinExchange::BitcoinExchange() {}
 
@@ -26,7 +27,7 @@ void BitcoinExchange::parseDatabaseLine(const std::string& line)
 	std::string date = line.substr(0, pos);
 	std::string valueStr = line.substr(pos + 1);
 
-	float rate = std::atof(valueStr.c_str());
+	float rate = atof(valueStr.c_str());
 	_database[date] = rate;
 }
 
@@ -106,9 +107,9 @@ bool BitcoinExchange::isValidDate(const std::string& date)
 	for (size_t i = 0; i < dayStr.length(); i++)
 		if (!std::isdigit(dayStr[i])) return false;
 
-	int year = std::atoi(yearStr.c_str());
-	int month = std::atoi(monthStr.c_str());
-	int day = std::atoi(dayStr.c_str());
+	int year = atoi(yearStr.c_str());
+	int month = atoi(monthStr.c_str());
+	int day = atoi(dayStr.c_str());
 
 	(void)year;
 	if (month < 1 || month > 12) return false;
@@ -120,7 +121,7 @@ bool BitcoinExchange::isValidDate(const std::string& date)
 bool BitcoinExchange::isValidValue(const std::string& valueStr, float& value)
 {
 	char *end;
-	value = std::strtof(valueStr.c_str(), &end);
+	value = strtof(valueStr.c_str(), &end);
 	
 	if (*end != '\0' && *end != '\n') {
         std::cerr << "Error: bad input => " << valueStr << std::endl;
