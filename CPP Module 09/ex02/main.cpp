@@ -1,7 +1,24 @@
 #include <iostream>
+#include "PmergeMe.hpp"
 
-int main()
+int main(int argc, char **argv)
 {
-	std::cout << "PmergeMe" << std::endl;
+	if (argc < 2)
+	{
+		std::cerr << "Error" << std::endl;
+		return 1;
+	}
+
+	try
+	{
+		PmergeMe sorter;
+		sorter.process(argv + 1);
+	}
+	catch(const std::exception& e)
+	{
+		std::cerr << e.what() << std::endl;
+		return 1;
+	}
+
 	return 0;
 }
