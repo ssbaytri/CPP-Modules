@@ -130,9 +130,18 @@ class PmergeMe
 				else pairs.push_back(std::make_pair(b, a));
 			}
 
-			// Sort pairs by larger element (ascending). std::pair::operator< compares
-			// first element then second, so default std::sort works for our purpose.
-			std::sort(pairs.begin(), pairs.end());
+			// Sort pairs by larger element (ascending). Implement a small insertion
+			// sort here to avoid using std::sort from <algorithm> as required.
+			for (size_t i = 1; i < pairs.size(); ++i) {
+				std::pair<int,int> key = pairs[i];
+				size_t j = i;
+				while (j > 0 && (pairs[j - 1].first > key.first ||
+								 (pairs[j - 1].first == key.first && pairs[j - 1].second > key.second))) {
+					pairs[j] = pairs[j - 1];
+					--j;
+				}
+				pairs[j] = key;
+			}
 
 			// Build main chain: start with the smaller of the first pair, then all largers
 			Container mainChain;
