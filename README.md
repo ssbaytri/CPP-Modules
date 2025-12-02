@@ -1,202 +1,390 @@
-# CPP Modules
+<div align="center">
 
-A comprehensive collection of C++ programming exercises covering fundamental to advanced concepts in Modern C++.  This repository contains 10 modules (CPP Module 00-09) designed to progressively build C++ programming skills.
+# 🚀 CPP Modules
 
-## 📋 Table of Contents
+### *A Journey Through Modern C++ Programming*
 
-- [About](#about)
-- [Modules Overview](#modules-overview)
-- [Getting Started](#getting-started)
-- [Compilation](#compilation)
-- [Requirements](#requirements)
-- [Module Structure](#module-structure)
-- [Learning Objectives](#learning-objectives)
-- [Author](#author)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Progress](https://img.shields.io/badge/Modules-10%2F10-success?style=for-the-badge)
+![Standard](https://img.shields.io/badge/Standard-C%2B%2B98-blue?style=for-the-badge)
 
-## 📖 About
+**Master C++ from fundamentals to advanced concepts through hands-on exercises**
 
-This repository is a structured learning path through C++ programming, covering everything from basic syntax and object-oriented programming to advanced topics like templates, STL containers, and design patterns. Each module builds upon the previous one, introducing new concepts and reinforcing fundamental principles.
+[Getting Started](#-getting-started) • [Modules](#-modules) • [Compilation](#-compilation) • [Learning Path](#-learning-path)
 
-## 🎯 Modules Overview
+</div>
 
-### Module 00 - Namespaces, Classes, Member Functions, I/O Streams
-Introduction to C++ basics and object-oriented programming fundamentals. 
-- Namespaces
-- Classes and objects
-- Member functions and attributes
-- stdio streams
-- Initialization lists
-- Static and const members
+---
 
-### Module 01 - Memory Allocation, Pointers, References
-Deep dive into memory management and understanding the difference between stack and heap.
-- Memory allocation
-- Pointers to members
-- References
-- Switch statements
+## 📚 About The Project
 
-### Module 02 - Ad-hoc Polymorphism, Operator Overloading
-Understanding polymorphism and implementing custom operators.
-- Ad-hoc polymorphism
-- Operator overloading
-- Orthodox Canonical class form
-- Fixed-point numbers
+This repository contains a comprehensive collection of **10 C++ modules** covering everything from basic object-oriented programming to advanced template metaprogramming and STL usage. Each module is designed to progressively build your C++ expertise through practical, hands-on exercises.
 
-### Module 03 - Inheritance
-Introduction to inheritance and class hierarchies.
-- Inheritance basics
-- Base and derived classes
-- Access specifiers (public, protected, private)
-- Multiple inheritance
+> **Note**: All projects follow the **C++98 standard** and adhere to strict coding guidelines with `-Wall -Wextra -Werror` compilation flags.
 
-### Module 04 - Subtype Polymorphism, Abstract Classes, Interfaces
-Advanced OOP concepts including polymorphism and abstraction.
-- Subtype polymorphism
-- Abstract classes
-- Interfaces
-- Virtual functions and destructors
+---
 
-### Module 05 - Repetition and Exceptions
-Error handling and exception management in C++.
-- Try/catch blocks
-- Exception classes
-- Custom exceptions
-- RAII (Resource Acquisition Is Initialization)
+## 🎯 Modules
 
-### Module 06 - C++ Casts
-Understanding different types of casting in C++.
-- Static cast
-- Dynamic cast
-- Const cast
-- Reinterpret cast
-- Scalar type conversions
+<table>
+<thead>
+<tr>
+<th width="120">Module</th>
+<th width="300">Focus Area</th>
+<th>Key Concepts</th>
+<th width="100">Exercises</th>
+</tr>
+</thead>
+<tbody>
 
-### Module 07 - C++ Templates
-Introduction to generic programming with templates.
-- Function templates
-- Class templates
-- Template specialization
-- Template instantiation
+<tr>
+<td align="center">
+<a href="./CPP%20Module%2000"><img src="https://img.shields.io/badge/Module-00-ff6b6b?style=for-the-badge" alt="Module 00"/></a>
+</td>
+<td><strong>Namespaces, Classes & I/O</strong></td>
+<td>
+• Namespaces<br>
+• Classes & Objects<br>
+• Member Functions<br>
+• stdio Streams<br>
+• Initialization Lists
+</td>
+<td align="center">
+<a href="./CPP%20Module%2000/ex00">ex00</a><br>
+<a href="./CPP%20Module%2000/ex01">ex01</a><br>
+<a href="./CPP%20Module%2000/ex02">ex02</a>
+</td>
+</tr>
 
-### Module 08 - Templated Containers, Iterators, Algorithms
-Working with STL and understanding iterators. 
-- STL containers (vector, list, map, etc.)
-- Iterators
-- Algorithms
-- Container adaptors
+<tr>
+<td align="center">
+<a href="./CPP%20Module%2001"><img src="https://img.shields.io/badge/Module-01-f06595?style=for-the-badge" alt="Module 01"/></a>
+</td>
+<td><strong>Memory & References</strong></td>
+<td>
+• Memory Allocation<br>
+• Pointers to Members<br>
+• References<br>
+• Stack vs Heap
+</td>
+<td align="center">
+<a href="./CPP%20Module%2001">View</a>
+</td>
+</tr>
 
-### Module 09 - STL Containers and Algorithms
-Advanced usage of Standard Template Library. 
-- Advanced STL usage
-- Container operations
-- Algorithm composition
-- Performance considerations
+<tr>
+<td align="center">
+<a href="./CPP%20Module%2002"><img src="https://img.shields.io/badge/Module-02-cc5de8?style=for-the-badge" alt="Module 02"/></a>
+</td>
+<td><strong>Operator Overloading</strong></td>
+<td>
+• Ad-hoc Polymorphism<br>
+• Operator Overloading<br>
+• Orthodox Canonical Form<br>
+• Fixed-point Numbers
+</td>
+<td align="center">
+<a href="./CPP%20Module%2002">View</a>
+</td>
+</tr>
 
-## 🚀 Getting Started
+<tr>
+<td align="center">
+<a href="./CPP%20Module%2003"><img src="https://img.shields.io/badge/Module-03-845ef7?style=for-the-badge" alt="Module 03"/></a>
+</td>
+<td><strong>Inheritance</strong></td>
+<td>
+• Inheritance Basics<br>
+• Base & Derived Classes<br>
+• Access Specifiers<br>
+• Multiple Inheritance
+</td>
+<td align="center">
+<a href="./CPP%20Module%2003">View</a>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="./CPP%20Module%2004"><img src="https://img.shields. io/badge/Module-04-5f3dc4?style=for-the-badge" alt="Module 04"/></a>
+</td>
+<td><strong>Polymorphism & Interfaces</strong></td>
+<td>
+• Subtype Polymorphism<br>
+• Abstract Classes<br>
+• Interfaces<br>
+• Virtual Functions
+</td>
+<td align="center">
+<a href="./CPP%20Module%2004">View</a>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="./CPP%20Module%2005"><img src="https://img.shields. io/badge/Module-05-339af0?style=for-the-badge" alt="Module 05"/></a>
+</td>
+<td><strong>Exceptions</strong></td>
+<td>
+• Try/Catch Blocks<br>
+• Exception Classes<br>
+• Custom Exceptions<br>
+• RAII Pattern
+</td>
+<td align="center">
+<a href="./CPP%20Module%2005">View</a>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="./CPP%20Module%2006"><img src="https://img.shields.io/badge/Module-06-22b8cf?style=for-the-badge" alt="Module 06"/></a>
+</td>
+<td><strong>C++ Casts</strong></td>
+<td>
+• Static Cast<br>
+• Dynamic Cast<br>
+• Const Cast<br>
+• Reinterpret Cast
+</td>
+<td align="center">
+<a href="./CPP%20Module%2006">View</a>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="./CPP%20Module%2007"><img src="https://img.shields.io/badge/Module-07-20c997?style=for-the-badge" alt="Module 07"/></a>
+</td>
+<td><strong>Templates</strong></td>
+<td>
+• Function Templates<br>
+• Class Templates<br>
+• Template Specialization<br>
+• Generic Programming
+</td>
+<td align="center">
+<a href="./CPP%20Module%2007">View</a>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="./CPP%20Module%2008"><img src="https://img. shields.io/badge/Module-08-51cf66?style=for-the-badge" alt="Module 08"/></a>
+</td>
+<td><strong>Containers & Iterators</strong></td>
+<td>
+• STL Containers<br>
+• Iterators<br>
+• Algorithms<br>
+• Container Adaptors
+</td>
+<td align="center">
+<a href="./CPP%20Module%2008">View</a>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="./CPP%20Module%2009"><img src="https://img.shields.io/badge/Module-09-94d82d?style=for-the-badge" alt="Module 09"/></a>
+</td>
+<td><strong>Advanced STL</strong></td>
+<td>
+• Advanced STL Usage<br>
+• Algorithm Composition<br>
+• Performance<br>
+• Best Practices
+</td>
+<td align="center">
+<a href="./CPP%20Module%2009">View</a>
+</td>
+</tr>
+
+</tbody>
+</table>
+
+---
+
+## 🛠️ Getting Started
 
 ### Prerequisites
 
-- C++ compiler supporting C++98 standard or later (g++, clang++)
+```bash
+# Minimum requirements
+- C++ Compiler (g++ or clang++)
 - Make utility
-- Unix-based operating system (Linux, macOS) or WSL for Windows
+- C++98 standard support
+```
 
 ### Installation
 
-Clone the repository:
-
 ```bash
+# Clone the repository
 git clone https://github.com/ssbaytri/CPP-Modules.git
+
+# Navigate to the project
 cd CPP-Modules
+
+# Choose a module
+cd "CPP Module 00"
 ```
 
-## 🔨 Compilation
+---
 
-Each module contains multiple exercises, each with its own Makefile.  To compile an exercise:
+## ⚙️ Compilation
+
+Each exercise comes with its own Makefile. Here's how to use it:
 
 ```bash
-# Navigate to a specific module and exercise
-cd "CPP Module 00"
-cd ex00  # or any exercise directory
+# Navigate to any exercise
+cd "CPP Module 00/ex00"
 
-# Compile using Make
+# Compile the project
 make
 
 # Run the executable
-./[executable_name]
+./[program_name]
 
 # Clean object files
 make clean
 
-# Clean everything including the executable
+# Remove all generated files
 make fclean
 
-# Recompile
+# Recompile from scratch
 make re
 ```
 
-## 📦 Requirements
+### Compiler Flags
 
-All projects in this repository follow these requirements:
-
-- **Language Standard**: C++98
-- **Compiler Flags**: `-Wall -Wextra -Werror`
-- **Coding Standard**: Orthodox Canonical Form for classes (where applicable)
-- **Forbidden Functions**: Varies by module (specified in each exercise)
-- **Memory Management**: No memory leaks allowed
-
-## 📂 Module Structure
-
-Each module typically contains:
-
-```
-CPP Module XX/
-├── ex00/          # First exercise
-│   ├── Makefile
-│   ├── *.cpp
-│   └── *.hpp
-├── ex01/          # Second exercise
-│   ├── Makefile
-│   ├── *.cpp
-│   └── *.hpp
-└── ...
-```
-
-## 🎓 Learning Objectives
-
-By completing these modules, you will:
-
-- ✅ Master object-oriented programming in C++
-- ✅ Understand memory management and RAII principles
-- ✅ Learn proper use of inheritance and polymorphism
-- ✅ Implement operator overloading correctly
-- ✅ Handle exceptions effectively
-- ✅ Use C++ casts appropriately
-- ✅ Work with templates and generic programming
-- ✅ Utilize the Standard Template Library (STL)
-- ✅ Write clean, maintainable, and efficient C++ code
-
-## 🔍 Key Concepts Covered
-
-- **OOP Principles**: Encapsulation, Inheritance, Polymorphism, Abstraction
-- **Memory Management**: Stack vs Heap, new/delete, smart pointers concepts
-- **C++ Specific Features**: References, const correctness, operator overloading
-- **Exception Handling**: Try-catch, exception safety, RAII
-- **Generic Programming**: Templates, type deduction, template specialization
-- **STL**: Containers, iterators, algorithms, functors
-
-## 👤 Author
-
-**ssbaytri**
-- GitHub: [@ssbaytri](https://github.com/ssbaytri)
-
-## 📝 Notes
-
-- Each module must be completed in order as they build upon each other
-- All code follows the C++98 standard
-- Solutions emphasize clean code practices and proper C++ idioms
-- Memory leaks are strictly forbidden and should be checked with tools like valgrind
+All projects are compiled with strict flags:
+- `-Wall` - Enable all warnings
+- `-Wextra` - Enable extra warnings
+- `-Werror` - Treat warnings as errors
+- `-std=c++98` - Use C++98 standard
 
 ---
 
-*This repository is part of a structured C++ curriculum designed to build strong foundations in modern C++ programming.*
+## 📈 Learning Path
+
+```mermaid
+graph TD
+    A[Module 00: OOP Basics] --> B[Module 01: Memory Management]
+    B --> C[Module 02: Operator Overloading]
+    C --> D[Module 03: Inheritance]
+    D --> E[Module 04: Polymorphism]
+    E --> F[Module 05: Exceptions]
+    F --> G[Module 06: Casting]
+    G --> H[Module 07: Templates]
+    H --> I[Module 08: STL Containers]
+    I --> J[Module 09: Advanced STL]
 ```
+
+---
+
+## 🎓 Key Learning Outcomes
+
+<table>
+<tr>
+<td width="50%">
+
+### 💡 Fundamental Concepts
+- ✅ Object-Oriented Programming
+- ✅ Memory Management (Stack/Heap)
+- ✅ RAII Principles
+- ✅ Const Correctness
+- ✅ Orthodox Canonical Form
+
+</td>
+<td width="50%">
+
+### 🚀 Advanced Topics
+- ✅ Polymorphism & Virtual Functions
+- ✅ Exception Handling
+- ✅ Template Metaprogramming
+- ✅ STL Mastery
+- ✅ Modern C++ Idioms
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📋 Project Guidelines
+
+<div align="center">
+
+| Rule | Requirement |
+|------|-------------|
+| 🏗️ **Standard** | C++98 |
+| 🔧 **Compilation** | No errors or warnings |
+| 💾 **Memory** | Zero memory leaks |
+| 📝 **Style** | Orthodox Canonical Form |
+| 🧪 **Testing** | Comprehensive test cases |
+
+</div>
+
+---
+
+## 🔍 Module Structure
+
+```
+CPP Module XX/
+├── 📄 README.md          # Module documentation
+├── 📁 ex00/              # Exercise 00
+│   ├── Makefile
+│   ├── main.cpp
+│   ├── *.hpp
+│   └── *.cpp
+├── 📁 ex01/              # Exercise 01
+│   └── ... 
+└── 📁 ex0X/              # Additional exercises
+    └── ...
+```
+
+---
+
+## 💻 Code Quality Standards
+
+- **No memory leaks** - Verify with `valgrind`
+- **Orthodox Canonical Form** - Copy constructor, assignment operator, destructor
+- **Proper encapsulation** - Private attributes, public methods
+- **Const correctness** - Use const where applicable
+- **Clear naming** - Self-documenting code
+
+---
+
+## 🤝 Contributing
+
+This is an educational project, but suggestions and improvements are welcome! 
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 👨‍💻 Author
+
+**ssbaytri**
+
+[![GitHub](https://img.shields.io/badge/GitHub-ssbaytri-181717?style=for-the-badge&logo=github)](https://github.com/ssbaytri)
+
+---
+
+## 📜 License
+
+This project is part of the 42 Network curriculum. 
+
+---
+
+<div align="center">
+
+### ⭐ Star this repo if you found it helpful! 
+
+**Happy Coding!** 🚀
+
+</div>
