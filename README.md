@@ -4,9 +4,9 @@
 
 ### *A Journey Through Modern C++ Programming*
 
-![C++](https://img.shields.io/badge/C%2B%2B-00599C? style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Progress](https://img.shields.io/badge/Modules-10%2F10-success? style=for-the-badge)
-![Standard](https://img. shields.io/badge/Standard-C%2B%2B98-blue?style=for-the-badge)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Progress](https://img.shields.io/badge/Modules-10%2F10-success?style=for-the-badge)
+![Standard](https://img.shields.io/badge/Standard-C%2B%2B98-blue?style=for-the-badge)
 
 **Master C++ from fundamentals to advanced concepts through hands-on exercises**
 
@@ -39,7 +39,7 @@ This repository contains a comprehensive collection of **10 C++ modules** coveri
 
 <tr>
 <td align="center">
-<a href="./CPP%20Module%2000"><img src="https://img. shields.io/badge/Module-00-ff6b6b? style=for-the-badge" alt="Module 00"/></a>
+<a href="./CPP%20Module%2000"><img src="https://img.shields.io/badge/Module-00-ff6b6b?style=for-the-badge" alt="Module 00"/></a>
 </td>
 <td><strong>Namespaces, Classes & I/O</strong></td>
 <td>
@@ -58,7 +58,7 @@ This repository contains a comprehensive collection of **10 C++ modules** coveri
 
 <tr>
 <td align="center">
-<a href="./CPP%20Module%2001"><img src="https://img. shields.io/badge/Module-01-f06595?style=for-the-badge" alt="Module 01"/></a>
+<a href="./CPP%20Module%2001"><img src="https://img.shields.io/badge/Module-01-f06595?style=for-the-badge" alt="Module 01"/></a>
 </td>
 <td><strong>Memory & References</strong></td>
 <td>
@@ -106,7 +106,7 @@ This repository contains a comprehensive collection of **10 C++ modules** coveri
 
 <tr>
 <td align="center">
-<a href="./CPP%20Module%2004"><img src="https://img.shields.io/badge/Module-04-5f3dc4?style=for-the-badge" alt="Module 04"/></a>
+<a href="./CPP%20Module%2004"><img src="https://img.shields. io/badge/Module-04-5f3dc4?style=for-the-badge" alt="Module 04"/></a>
 </td>
 <td><strong>Polymorphism & Interfaces</strong></td>
 <td>
@@ -122,7 +122,7 @@ This repository contains a comprehensive collection of **10 C++ modules** coveri
 
 <tr>
 <td align="center">
-<a href="./CPP%20Module%2005"><img src="https://img.shields.io/badge/Module-05-339af0?style=for-the-badge" alt="Module 05"/></a>
+<a href="./CPP%20Module%2005"><img src="https://img.shields. io/badge/Module-05-339af0?style=for-the-badge" alt="Module 05"/></a>
 </td>
 <td><strong>Exceptions</strong></td>
 <td>
@@ -138,7 +138,7 @@ This repository contains a comprehensive collection of **10 C++ modules** coveri
 
 <tr>
 <td align="center">
-<a href="./CPP%20Module%2006"><img src="https://img. shields.io/badge/Module-06-22b8cf?style=for-the-badge" alt="Module 06"/></a>
+<a href="./CPP%20Module%2006"><img src="https://img.shields.io/badge/Module-06-22b8cf?style=for-the-badge" alt="Module 06"/></a>
 </td>
 <td><strong>C++ Casts</strong></td>
 <td>
@@ -170,7 +170,7 @@ This repository contains a comprehensive collection of **10 C++ modules** coveri
 
 <tr>
 <td align="center">
-<a href="./CPP%20Module%2008"><img src="https://img.shields.io/badge/Module-08-51cf66? style=for-the-badge" alt="Module 08"/></a>
+<a href="./CPP%20Module%2008"><img src="https://img. shields.io/badge/Module-08-51cf66?style=for-the-badge" alt="Module 08"/></a>
 </td>
 <td><strong>Containers & Iterators</strong></td>
 <td>
@@ -220,7 +220,7 @@ This repository contains a comprehensive collection of **10 C++ modules** coveri
 
 ```bash
 # Clone the repository
-git clone https://github.com/ssbaytri/CPP-Modules. git
+git clone https://github.com/ssbaytri/CPP-Modules.git
 
 # Navigate to the project
 cd CPP-Modules
@@ -233,7 +233,7 @@ cd "CPP Module 00"
 
 ## ⚙️ Compilation
 
-Each exercise comes with its own Makefile.  Here's how to use it:
+Each exercise comes with its own Makefile. Here's how to use it:
 
 ```bash
 # Navigate to any exercise
@@ -338,7 +338,7 @@ CPP Module XX/
 │   ├── *.hpp
 │   └── *.cpp
 ├── 📁 ex01/              # Exercise 01
-│   └── ...  
+│   └── ... 
 └── 📁 ex0X/              # Additional exercises
     └── ...
 ```
@@ -357,13 +357,13 @@ CPP Module XX/
 
 ## 🤝 Contributing
 
-This is an educational project, but suggestions and improvements are welcome!  
+This is an educational project, but suggestions and improvements are welcome! 
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
+5. Open a Pull Request
 
 ---
 
@@ -371,13 +371,13 @@ This is an educational project, but suggestions and improvements are welcome!
 
 **ssbaytri**
 
-[![GitHub](https://img. shields.io/badge/GitHub-ssbaytri-181717? style=for-the-badge&logo=github)](https://github. com/ssbaytri)
+[![GitHub](https://img.shields.io/badge/GitHub-ssbaytri-181717?style=for-the-badge&logo=github)](https://github.com/ssbaytri)
 
 ---
 
 ## 📜 License
 
-This project is part of the 42 Network curriculum.  
+This project is part of the 42 Network curriculum. 
 
 ---
 
